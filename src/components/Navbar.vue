@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { Search, UserCircle, Bell, CreditCard } from 'lucide-vue-next'
+import { RouterLink } from 'vue-router';
 const props = defineProps({
   titre: {
     type: String,
@@ -51,7 +52,12 @@ const searchQuery = ref("")
           </div>
 
           <!-- personne icone -->
-          <UserCircle class="size-8 " />
+          <RouterLink to="/">
+  
+             <UserCircle class="size-8 " />
+
+        </RouterLink>
+       
 
         </main>
 
