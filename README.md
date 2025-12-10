@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # adminSgStock
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -36,3 +37,7 @@ npm run dev
 ```sh
 npm run build
 ```
+=======
+# AdminSgStock
+Passons maintenant a la partie  le site-Web du ERP sg-stock passons maintenant a la partie d'admin de cette ERP
+>>>>>>> 8fd4f2b8d7fb9735991cc3934394a528a587dba2
